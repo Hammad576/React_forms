@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+ 
 import './App.css';
-
+import { FormIkTest } from './Components/formIkTest';
+import Navbar from './Components/Navbar';
+import Textform from './Components/Textform';
+import  {Form1 }from './Components/Form1';
+import  {Form2}from './Components/Form2';
+import { Form3 } from './Components/Form3';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+return (
+    
+    <>
+     <Navbar/>
+    <Form1/>
+     <Form2/>
+    <Form3/>
+  
+  
+  </>
+  );
+
+}
 export default App;
